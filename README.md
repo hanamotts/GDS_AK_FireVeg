@@ -6,7 +6,7 @@ _____
 
 ## Project overview
 
-This project will investigate how the fire regimes of Central Siberia are tied to the underlying vegetation and permafrost type using machine learning.
+This project will investigate how fire severity in Central Siberia are tied to the underlying vegetation and permafrost type using machine learning.
 
 ### **Objectives**
 
@@ -14,7 +14,7 @@ This project will investigate how the fire regimes of Central Siberia are tied t
 	1. Severity: low, moderate, high
 	2. Vegetation: polar, tundra, sparse taiga, middle taiga, southern taiga, steppe, desert
 	3. Permafrost: continuous, discontinuous, sporadic, seasonal
-2. Create a basic machine learning model to predict fire regime variables based on vegetation and permafrost type
+2. Create a basic machine learning model to predict fire severity based on vegetation and permafrost type
 
 ### **Datasets**
 
@@ -64,4 +64,4 @@ This project will investigate how the fire regimes of Central Siberia are tied t
 
 I expect there to be relatively high correlation values with fire severity and vegetation. The vegetation classes are closely tied to climatic zones and therefore likely good predictors for fire severity.
 
-Permafrost may also be a predictor of fire severity because permafrost zones are also controlled by climate and have close relations to vegetation type.
+Permafrost may also be a good predictor of fire severity because permafrost zones are controlled by climate and have close relations to vegetation type.
