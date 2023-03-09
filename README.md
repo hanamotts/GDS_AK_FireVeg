@@ -1,4 +1,4 @@
-# Investigating Siberian fire severity connections with vegetation and permafrost type
+# Predicting wildfire occurrence in Alaska
 
 ## Hana Matsumoto
 
@@ -6,15 +6,15 @@ _____
 
 ## Project overview
 
-This project will investigate how the fire regimes of Central Siberia are tied to the underlying vegetation and permafrost type using machine learning.
+This project will investigate wildfire occurrence in Alaska using predictors such as the underlying vegetation and permafrost type using machine learning.
 
 ### **Objectives**
 
-1. Define fire severity, vegetation and permafrost zones
+1. Define wildfire incidents, vegetation and permafrost for Alaska
 	1. Severity: low, moderate, high
-	2. Vegetation: polar, tundra, sparse taiga, middle taiga, southern taiga, steppe, desert
+	2. Vegetation: forest type
 	3. Permafrost: continuous, discontinuous, sporadic, seasonal
-2. Create a basic machine learning model to predict fire regime variables based on vegetation and permafrost type
+2. Create a basic machine learning model to predict based on vegetation and permafrost type
 
 ### **Datasets**
 
