@@ -50,12 +50,12 @@ This project will investigate wildfire occurrence in Alaska using predictors suc
 2. Clean datasets
 3. Determine how to correlate fire incidents to underlying vegetation and permafrost
 4. Run linear regression and random forest model to see how accurately the models can predict wildfire occurrence based on permafrost and vegetation alone
-5. Add additional feature depending on outcome
+5. Add additional features depending on outcome
 
 ### **Expected outcomes**
 
 I expect there to be relatively high correlation values with fire occurence and vegetation. The vegetation classes are closely tied to climatic zones and therefore likely good predictors for fire.
 
-Permafrost may also be a predictor of fire severity because permafrost zones are also controlled by climate and have close relations to vegetation type.
+Permafrost may also be a good predictor of fire occurrence because permafrost zones are controlled by climate and have close relations to vegetation type.
 
 Therefore, I think forest type and permafrost zone might be good features on their own. However, if model performs poorly, climate and Alaskan regional zones may be added as features.
