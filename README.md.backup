@@ -1,4 +1,4 @@
-# Predicting wildfire occurrence in Alaska
+# Predicting large wildfire occurrence in Alaska
 
 ## Hana Matsumoto
 
@@ -6,11 +6,12 @@ _____
 
 ## Project overview
 
-This project will investigate wildfire occurrence in Alaska using predictors such as the underlying vegetation and permafrost type using machine learning.
+This project will investigate predicting large wildfire occurrence in Alaska using machine learning with a particular interest in how well underlying forest vegetation and permafrost type are at helping predict large fires.
 
 ### **Objectives**
 
-1. Define wildfire incidents, vegetation and permafrost for Alaska
+1. Define large wildfire, vegetation and permafrost for Alaska
+	1. Large wildfire: >250 acres
 	1. Vegetation: forest type
 	2. Permafrost: continuous, discontinuous, sporadic, seasonal
 2. Create a basic machine learning model to predict wildfire based on vegetation and permafrost type
@@ -30,19 +31,13 @@ This project will investigate wildfire occurrence in Alaska using predictors suc
 
 1. geopandas
 2. pandas
+3. jupyter
 3. numpy
 4. rasterio
-5. matplotlib.pyplot
-6. sklearn.preprocessing
-1. StandardScaler
-7. sklearn.model_selection
-1. train_test_split
-8. sklearn.linear_model
-1. LinearRegression
-9. sklearn.ensemble
-1. RandomForest
-10. sklearn.metrics
-1. mean_squared_error
+5. matplotlib
+6. sklearn
+7. seaborn
+7. shapely
 ### **Methods**
 
 1. Import fire, forest type and permafrost shapefiles into Jupyter Notebook for analyzing
@@ -50,12 +45,12 @@ This project will investigate wildfire occurrence in Alaska using predictors suc
 2. Clean datasets
 3. Determine how to correlate fire incidents to underlying vegetation and permafrost
 4. Run linear regression and random forest model to see how accurately the models can predict wildfire occurrence based on permafrost and vegetation alone
-5. Add additional feature depending on outcome
+5. Add additional features depending on outcome
 
 ### **Expected outcomes**
 
-I expect there to be relatively high correlation values with fire occurence and vegetation. The vegetation classes are closely tied to climatic zones and therefore likely good predictors for fire.
+I expect there to be relatively high correlation values with large fires and certain vegetation types. The vegetation classes are closely tied to climatic zones and some vegetation is better fuel than others. Therefore, vegetation type is likely a good predictor for creating large fires.
 
-Permafrost may also be a predictor of fire severity because permafrost zones are also controlled by climate and have close relations to vegetation type.
+Permafrost may also be a good predictor of fire occurrence because permafrost zones are controlled by climate and have close relations to vegetation type.
 
-Therefore, I think forest type and permafrost zone might be good features on their own. However, if model performs poorly, climate and Alaskan regional zones may be added as features.
+I think forest vegetation type and permafrost zone might be good features on their own. However, if the model performs poorly, climate (temperature and precipitation) and Alaskan regional zones may be added as features.

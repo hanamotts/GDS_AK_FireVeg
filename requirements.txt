@@ -5,4 +5,5 @@ numpy
 rasterio
 matplotlib
 shapely
-sklearn
+scikit-learn
+seaborn
