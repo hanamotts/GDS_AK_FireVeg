@@ -7,3 +7,4 @@ matplotlib
 shapely
 scikit-learn
 seaborn
+rioxarray

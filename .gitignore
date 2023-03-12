@@ -1,6 +1,10 @@
 #
 data/alaska_foresttype_63360.img
 alaska_foresttype_63360.img
+AK_Fire_Size_Predictor-Copy1.ipynb
+AK_Wildfire_Predictor.ipynb
+AK_foresttype.tif
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
